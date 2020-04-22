@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+//Program function dengan tipe double dan nilai kembalian double muhammad hilal zada
+
+//Ini adalah function dengan tipe double dan nilai kembalian double
+void function ()
+{
+	cout << "Ini adalah function dengan tipe double dan nilai kembalian double" << endl;
+	
+}
+
+double Pembagian(double nilai1, double nilai2)
+{
+	return  nilai1 / nilai2;
+}
+
+int main ()
+{
+	function ();
+	cout << "Hasil Pembagian dari (100,20) : " <<endl << Pembagian(100,20);
+	return 0;
+}
