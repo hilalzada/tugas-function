@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+//Program function tanpa parameter tetapi dengan nilai kembalian muhammad hilal zada
+
+//Ini adalah function tanpa parameter tetapi dengan nilai kembalian
+void cetakInfo ()
+{
+	cout << "Ini adalah function tanpa parameter tetapi dengan nilai kembalian" << endl;
+}
+
+int function ()
+{
+	int nilai1 = 57, nilai2 = 43;
+	return nilai1 + nilai2;
+}
+
+int main () 
+{
+	cetakInfo ();
+	cout << "Berikut adalah hasil Pertambahan dari (57,43) : " << endl << function ();
+}
