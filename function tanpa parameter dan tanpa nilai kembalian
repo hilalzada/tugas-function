@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+//Program function tanpa parameter dan tanpa nilai kembalian muhammad hilal zada
+
+//ini adalah program function tanpa parameter dan tanpa nilai kembalian
+void function ()
+{
+	cout << "Ini adalah function tanpa parameter dan tanpa nilai kembalian" << endl;
+}
+
+int main ()
+{
+	function ();
+	return 0;
+}
